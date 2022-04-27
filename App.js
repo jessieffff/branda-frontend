@@ -13,10 +13,8 @@ import moment from 'moment';
 
 const Root = createNativeStackNavigator();
 
-
+//the main function that displaying the app
 export default function App() {
-
-
 
   return (
     <PaperProvider>
@@ -93,7 +91,7 @@ function Home() {
     </View>
   );
 
-
+//content for rendering on home page
   return (
       <View style={styles.container}>
         
